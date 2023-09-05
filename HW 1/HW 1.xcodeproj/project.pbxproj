@@ -16,6 +16,7 @@
 		81B381082AA7184400E5FC42 /* HW_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B381072AA7184400E5FC42 /* HW_1Tests.swift */; };
 		81B381122AA7184400E5FC42 /* HW_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B381112AA7184400E5FC42 /* HW_1UITests.swift */; };
 		81B381142AA7184400E5FC42 /* HW_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B381132AA7184400E5FC42 /* HW_1UITestsLaunchTests.swift */; };
+		81EE19652AA75EA100D84C33 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE19642AA75EA100D84C33 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		81B3810D2AA7184400E5FC42 /* HW 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B381112AA7184400E5FC42 /* HW_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_1UITests.swift; sourceTree = "<group>"; };
 		81B381132AA7184400E5FC42 /* HW_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81EE19642AA75EA100D84C33 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		81B380E42AA7184200E5FC42 = {
 			isa = PBXGroup;
 			children = (
+				81EE19642AA75EA100D84C33 /* DetailViewController.swift */,
 				81B380EF2AA7184300E5FC42 /* HW 1 */,
 				81B381062AA7184400E5FC42 /* HW 1Tests */,
 				81B381102AA7184400E5FC42 /* HW 1UITests */,
@@ -261,6 +264,7 @@
 				81B380F52AA7184300E5FC42 /* ViewController.swift in Sources */,
 				81B380F12AA7184300E5FC42 /* AppDelegate.swift in Sources */,
 				81B380F32AA7184300E5FC42 /* SceneDelegate.swift in Sources */,
+				81EE19652AA75EA100D84C33 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
