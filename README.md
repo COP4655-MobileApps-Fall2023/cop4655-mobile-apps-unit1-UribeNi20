@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 ## Notes
 
 Describe any challenges encountered while building the app.
-	- Constraints were the major issue with this project.
+- Constraints were the major issue with this project.
 
 ## License
 
