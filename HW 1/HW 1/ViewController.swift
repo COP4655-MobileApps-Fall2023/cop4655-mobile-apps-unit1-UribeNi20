@@ -35,12 +35,15 @@ class ViewController: UIViewController {
                let tappedView = sender as? UIView {
                 switch tappedView.tag {
                 case 1:
-                    nextVC.labelText = "He is currently trying to figure that out. Obviously a high paying paying job would be a good start. Working for a MAANG company is the ultimate goal to him. He just wants to be someone that is a reliable coder. To some, these might not be accomplishments, but to him they are."
+                    nextVC.labelText = "He is trying to figure that out. Obviously a high paying paying job would be a good start. Working for a MAANG company is the ultimate goal to him. He also wants an internship first. He just wants to be someone that is a reliable coder at the end of the day."
+                        nextVC.imageName = "Who"
                 case 2:
-                    nextVC.labelText = "Q 2"
+                    nextVC.labelText = "For some reason he wants to end up in the North East. Whether thats Boston or NY, who knows. He is not completely opposed to other states like California or certain parts of North Carolina. By then, I think he hopes to have accomplished a few things. He really hopes to get an internship. That seems like a must in his field."
+                        nextVC.imageName = "What"
                 // ... and so on for other cases
                 default:
-                    nextVC.labelText = "His name is Nicolas Uribe. He is currently getting a BA in Computer Science at Florida Atlantic University. He watches sports like football and basketball. When he's feeling producitve he will do some coding on the side."
+                    nextVC.labelText = "His name is Nicolas Uribe and is 21 years old. He is currently getting a BA in Computer Science at Florida Atlantic University. He watches sports like football and basketball. When he's feeling producitve he will do some coding on the side. He has ADHD and OCD and is currently learning to cook."
+                    nextVC.imageName = "Where"
                 }
             }
         }

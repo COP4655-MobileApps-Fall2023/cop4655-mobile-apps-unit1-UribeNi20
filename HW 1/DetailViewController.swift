@@ -14,12 +14,20 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        myLabel.text = labelText
-
+        
         // Do any additional setup after loading the view.
+        // Set the label's text
+        myLabel.text = labelText
+        
+        // Set the image
+        if let name = imageName {
+            myImage.image = UIImage(named: name)
+        }
     }
     
 
+    @IBOutlet weak var myImage: UIImageView!
+    var imageName: String?
     /*
     // MARK: - Navigation
 

@@ -16,83 +16,87 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-20" translatesAutoresizingMaskIntoConstraints="NO" id="VDJ-gH-ycc" userLabel="Questions">
-                                <rect key="frame" x="20" y="107" width="353" height="691"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="138" translatesAutoresizingMaskIntoConstraints="NO" id="nbl-EM-hDm">
+                                <rect key="frame" x="25" y="173" width="353" height="585"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vex-aS-IQS" userLabel="Q1">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="110"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who is he?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7Q-Tk-87P">
-                                                <rect key="frame" x="138" y="54" width="96.333333333333314" height="18.333333333333329"/>
-                                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="16"/>
-                                                <color key="textColor" systemColor="systemBackgroundColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <gestureRecognizers/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Baby photo" translatesAutoresizingMaskIntoConstraints="NO" id="jVq-B3-Uxh">
+                                        <rect key="frame" x="30" y="0.0" width="293" height="123"/>
                                         <constraints>
-                                            <constraint firstItem="A7Q-Tk-87P" firstAttribute="top" secondItem="vex-aS-IQS" secondAttribute="top" constant="54" id="AlY-v8-IYR"/>
-                                            <constraint firstAttribute="trailing" secondItem="A7Q-Tk-87P" secondAttribute="trailing" constant="118.66666666666669" id="hcB-HA-xIL"/>
-                                            <constraint firstItem="A7Q-Tk-87P" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vex-aS-IQS" secondAttribute="leading" constant="20" symbolic="YES" id="tMr-0g-wvi"/>
+                                            <constraint firstAttribute="height" constant="123" id="XZc-yY-A3A"/>
                                         </constraints>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="30L-Zh-BFv" appends="YES" id="wwN-ju-KJW"/>
-                                        </connections>
-                                    </view>
-                                    <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="irK-Pc-XKE" userLabel="Q2">
-                                        <rect key="frame" x="0.0" y="90" width="353" height="492"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-20" translatesAutoresizingMaskIntoConstraints="NO" id="VDJ-gH-ycc" userLabel="Questions">
+                                        <rect key="frame" x="0.0" y="261" width="353" height="324"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What does he want to accomplish?" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OT-1N-6rc">
-                                                <rect key="frame" x="8" y="54" width="328" height="19.333333333333329"/>
-                                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
-                                                <color key="textColor" systemColor="systemBackgroundColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vex-aS-IQS" userLabel="Q1">
+                                                <rect key="frame" x="0.0" y="0.0" width="353" height="110"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who is he?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7Q-Tk-87P">
+                                                        <rect key="frame" x="138" y="54" width="96.333333333333314" height="18.333333333333329"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="16"/>
+                                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="30L-Zh-BFv" appends="YES" id="wwN-ju-KJW"/>
+                                                </connections>
+                                            </view>
+                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="irK-Pc-XKE" userLabel="Q2">
+                                                <rect key="frame" x="0.0" y="90" width="353" height="125"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What does he want to accomplish?" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OT-1N-6rc">
+                                                        <rect key="frame" x="8" y="54" width="328" height="19.333333333333329"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
+                                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="ylc-uo-x92" appends="YES" id="Hov-6z-wye"/>
+                                                </connections>
+                                            </view>
+                                            <view tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1DU-7U-q0o" userLabel="Q3">
+                                                <rect key="frame" x="0.0" y="195" width="353" height="129"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where will he be in 5 years" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WzN-Ds-eY0">
+                                                        <rect key="frame" x="66.333333333333343" y="55.333333333333371" width="260" height="19"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="16"/>
+                                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="no8-cM-e1V" appends="YES" id="aLa-DO-R2I"/>
+                                                </connections>
+                                            </view>
                                         </subviews>
-                                        <gestureRecognizers/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="9OT-1N-6rc" secondAttribute="trailing" constant="17" id="JoF-kY-Kww"/>
-                                            <constraint firstItem="9OT-1N-6rc" firstAttribute="top" secondItem="irK-Pc-XKE" secondAttribute="top" constant="54" id="coq-jr-xSX"/>
-                                            <constraint firstItem="9OT-1N-6rc" firstAttribute="leading" secondItem="irK-Pc-XKE" secondAttribute="leadingMargin" id="maE-w6-Qmy"/>
+                                            <constraint firstItem="irK-Pc-XKE" firstAttribute="top" secondItem="VDJ-gH-ycc" secondAttribute="top" constant="90" id="Nmk-Vt-jle"/>
+                                            <constraint firstItem="1DU-7U-q0o" firstAttribute="top" secondItem="vex-aS-IQS" secondAttribute="bottom" constant="85" id="lld-kr-36Y"/>
                                         </constraints>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="ylc-uo-x92" appends="YES" id="Hov-6z-wye"/>
-                                        </connections>
-                                    </view>
-                                    <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1DU-7U-q0o" userLabel="Q3">
-                                        <rect key="frame" x="0.0" y="562" width="353" height="129"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where will he be in 5 years" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WzN-Ds-eY0">
-                                                <rect key="frame" x="66.333333333333343" y="55.333333333333378" width="259.33333333333326" height="18.333333333333336"/>
-                                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="16"/>
-                                                <color key="textColor" systemColor="systemBackgroundColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <gestureRecognizers/>
-                                        <constraints>
-                                            <constraint firstItem="WzN-Ds-eY0" firstAttribute="centerY" secondItem="1DU-7U-q0o" secondAttribute="centerY" id="Lrt-UW-2ft"/>
-                                            <constraint firstItem="WzN-Ds-eY0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1DU-7U-q0o" secondAttribute="leading" constant="20" symbolic="YES" id="YI0-zQ-1Ol"/>
-                                            <constraint firstAttribute="trailing" secondItem="WzN-Ds-eY0" secondAttribute="trailing" constant="27.333333333333314" id="stk-Yy-oxE"/>
-                                        </constraints>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="no8-cM-e1V" appends="YES" id="aLa-DO-R2I"/>
-                                        </connections>
-                                    </view>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="1DU-7U-q0o" firstAttribute="top" secondItem="VDJ-gH-ycc" secondAttribute="top" constant="562" id="h8e-2g-9Au"/>
-                                    <constraint firstItem="irK-Pc-XKE" firstAttribute="top" secondItem="VDJ-gH-ycc" secondAttribute="top" constant="90" id="sak-XH-1Bt"/>
+                                    <constraint firstItem="VDJ-gH-ycc" firstAttribute="leading" secondItem="nbl-EM-hDm" secondAttribute="leading" id="HpB-s9-ZHd"/>
+                                    <constraint firstItem="jVq-B3-Uxh" firstAttribute="leading" secondItem="nbl-EM-hDm" secondAttribute="leading" constant="30" id="j0E-6H-8Cl"/>
+                                    <constraint firstAttribute="trailing" secondItem="jVq-B3-Uxh" secondAttribute="trailing" constant="30" id="rB5-c0-hj0"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="VDJ-gH-ycc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="4" id="4JQ-dS-c11"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VDJ-gH-ycc" secondAttribute="bottom" constant="20" id="6WO-aL-7z7"/>
-                            <constraint firstItem="VDJ-gH-ycc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HlJ-iq-xdV"/>
-                            <constraint firstItem="VDJ-gH-ycc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xhe-bs-C5j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nbl-EM-hDm" secondAttribute="bottom" constant="60" id="9If-sK-yl8"/>
+                            <constraint firstItem="nbl-EM-hDm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="BHU-jW-XOT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nbl-EM-hDm" secondAttribute="trailing" constant="15" id="NXn-wn-RMa"/>
+                            <constraint firstItem="nbl-EM-hDm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="dO2-LY-lMh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Questions!" id="q0N-Oh-McM"/>
@@ -127,10 +131,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJM-Cp-jP8">
-                                <rect key="frame" x="16" y="103" width="361" height="284"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OvE-oc-cDT">
+                                <rect key="frame" x="16" y="119" width="361" height="196"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJM-Cp-jP8">
+                                <rect key="frame" x="16" y="373" width="361" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="18"/>
                                 <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -140,6 +148,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="k7t-Bu-NKg"/>
                     <connections>
+                        <outlet property="myImage" destination="OvE-oc-cDT" id="eYu-vd-t6g"/>
                         <outlet property="myLabel" destination="zJM-Cp-jP8" id="EHA-yv-CwL"/>
                     </connections>
                 </viewController>
@@ -167,6 +176,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Baby photo" width="768" height="1024"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
