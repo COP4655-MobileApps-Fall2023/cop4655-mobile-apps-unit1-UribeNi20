@@ -25,9 +25,9 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [X] List anything else that you can get done to improve the app functionality!
-	• Make the cover photo bigger
-	• Figure out how to use constraints
-	• Add the ability to rotate the phone and not rearrange text/photos
+  	- Make the cover photo bigger
+	- Figure out how to use constraints
+	- Add the ability to rotate the phone and not rearrange text/photos
 
 ## Video Walkthrough
 
